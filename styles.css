@@ -1,8 +1,9 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+ 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +62,10 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
 }
+
 .link-btn:hover {
     background-color: #4a4a4a;
 }
